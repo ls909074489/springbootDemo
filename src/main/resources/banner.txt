@@ -1,3 +1,5 @@
+Application Version: 1.0.8
+Spring Boot Version: ${spring-boot.version}
   _     ___   ___   ___   ___  
  | |   |__ \ / _ \ / _ \ / _ \ 
  | |___   ) | | | | | | | (_) |

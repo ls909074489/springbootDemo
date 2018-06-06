@@ -45,20 +45,6 @@ public class DemoController {
 	
 	@RequestMapping(value="/vuePage",method=RequestMethod.GET)
 	public String vuePage(){
-		
-		String key="string:username:shabao";
-		SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        template.opsForValue().set(key, "我是ls20081111:"+ sdf.format(new Date()));  
-        System.out.println("key已存在:"+template.opsForValue().get(key));  
-        
-        
-        String k1="key1";
-        template.opsForValue().set(k1, "0");  
-        for(int i=0;i<100;i++){
-        	 ThreadTest1 t1=new ThreadTest1();
-             t1.start();
-        }
-        
 		return "vue";
 	}
 	
